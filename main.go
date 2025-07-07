@@ -279,7 +279,7 @@ func main() {
 	var rootCmd = &cobra.Command{
 		Use:   "peakpip",
 		Short: "peakpip - peaker pip trust",
-		Long:  `peakpip is a faster (?) version of pip`,
+		Long:  `peakpip is a faster (?) version of pip (it's a wrapper)`,
 	}
 	rootCmd.PersistentFlags().BoolVarP(&peakPip.quiet, "quiet", "q", false, "give less output")
 	rootCmd.PersistentFlags().BoolVarP(&peakPip.verbose, "verbose", "v", false, "give more output")
